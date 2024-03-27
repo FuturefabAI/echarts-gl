@@ -14,14 +14,14 @@ ECharts-GL is an extension pack of [Apache ECharts](http://echarts.apache.org/),
 ###  npm and webpack
 
 ```bash
-npm install echarts
-npm install echarts-gl
+npm install @xdatav/echarts
+npm install @xdatav/echarts-gl
 ```
 
 #### Import all
 ```js
 import * as echarts from '@xdatav/echarts';
-import 'echarts-gl';
+import '@xdatav/echarts-gl';
 ```
 
 #### Minimal Import
@@ -35,8 +35,8 @@ echarts.use([Scatter3DChart, Grid3DComponent]);
 
 ### Include by scripts
 ```html
-<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@xdatav/echarts/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@xdatav/echarts-gl/dist/echarts-gl.min.js"></script>
 ```
 
 NOTE:
