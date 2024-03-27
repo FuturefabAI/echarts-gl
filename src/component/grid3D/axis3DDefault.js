@@ -1,4 +1,4 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from '@xdatav/echarts/lib/echarts';
 
 var defaultOption = {
     show: true,

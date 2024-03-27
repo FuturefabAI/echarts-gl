@@ -19,7 +19,7 @@ module.exports = (env, options) => {
             filename: options.mode === 'production' ? '[name].min.js' : '[name].js'
         },
         externals: {
-            'echarts/lib/echarts': 'echarts'
+            '@xdatav/echarts/lib/echarts': 'echarts'
         }
     };
 };

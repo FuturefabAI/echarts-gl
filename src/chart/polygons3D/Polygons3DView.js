@@ -1,4 +1,4 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from '@xdatav/echarts/lib/echarts';
 import Geo3DBuilder from '../../component/common/Geo3DBuilder';
 import graphicGL from '../../util/graphicGL';
 

@@ -1,6 +1,6 @@
-import * as echarts from 'echarts/lib/echarts';
-import Graph from 'echarts/lib/data/Graph';
-import linkList from 'echarts/lib/data/helper/linkList';
+import * as echarts from '@xdatav/echarts/lib/echarts';
+import Graph from '@xdatav/echarts/lib/data/Graph';
+import linkList from '@xdatav/echarts/lib/data/helper/linkList';
 import retrieve from '../../util/retrieve';
 
 export default function (nodes, edges, hostModel, directed, beforeLink) {

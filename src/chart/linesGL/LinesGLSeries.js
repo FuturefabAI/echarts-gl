@@ -1,4 +1,4 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from '@xdatav/echarts/lib/echarts';
 import { concatArray } from 'zrender/lib/core/util';
 
 var LinesGLSeries = echarts.SeriesModel.extend({

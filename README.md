@@ -20,15 +20,15 @@ npm install echarts-gl
 
 #### Import all
 ```js
-import * as echarts from 'echarts';
+import * as echarts from '@xdatav/echarts';
 import 'echarts-gl';
 ```
 
 #### Minimal Import
 ```js
-import * as echarts from 'echarts/core';
-import { Scatter3DChart } from 'echarts-gl/charts';
-import { Grid3DComponent } from 'echarts-gl/components';
+import * as echarts from '@xdatav/echarts/core';
+import { Scatter3DChart } from '@xdatav/echarts-gl/charts';
+import { Grid3DComponent } from '@xdatav/echarts-gl/components';
 
 echarts.use([Scatter3DChart, Grid3DComponent]);
 ```

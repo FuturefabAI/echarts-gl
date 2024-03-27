@@ -1,5 +1,5 @@
-import * as echarts from 'echarts/lib/echarts';
-import {createTextStyle} from 'echarts/lib/label/labelStyle';
+import * as echarts from '@xdatav/echarts/lib/echarts';
+import {createTextStyle} from '@xdatav/echarts/lib/label/labelStyle';
 
 import graphicGL from '../../util/graphicGL';
 import Lines3DGeometry from '../../util/geometry/Lines3D';

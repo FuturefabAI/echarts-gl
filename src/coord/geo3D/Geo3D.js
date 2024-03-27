@@ -1,10 +1,10 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from '@xdatav/echarts/lib/echarts';
 import glmatrix from 'claygl/src/dep/glmatrix';
 var vec3 = glmatrix.vec3;
 var mat4 = glmatrix.mat4;
 
-import textCoord from 'echarts/lib/coord/geo/fix/textCoord';
-import geoCoord from 'echarts/lib/coord/geo/fix/geoCoord';
+import textCoord from '@xdatav/echarts/lib/coord/geo/fix/textCoord';
+import geoCoord from '@xdatav/echarts/lib/coord/geo/fix/geoCoord';
 // Geo fix functions
 var geoFixFuncs = [textCoord, geoCoord];
 
